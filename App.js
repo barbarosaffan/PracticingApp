@@ -46,6 +46,9 @@ const styles = StyleSheet.create({
   blueText: {
     color: 'blue'
   },
+  justifiedContent: {
+    justifyContent: 'center'
+  },
 });
 
 export default someText
