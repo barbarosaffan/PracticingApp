@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View, Image, ScrollView, TextInput } from 'react-native';
+import React, { useState } from 'react';
+import { StyleSheet, Text, View, Image, ScrollView, TextInput, Button } from 'react-native';
 
 /* 
 const App = () => {
@@ -26,9 +26,11 @@ const App = () => {
 */
 
 const someText = () => {
+  const [outputText, setOutputText] = useState('Wello Horld!')
   return (
     <View style = {styles.container}>
-      <Text>Hello Pelin!</Text>
+      <Text>{outputText}</Text>
+      <Button title = "Change Text" onPress = {() => setOutputText('Hello girls!')} />
     </View>
   );
 }
