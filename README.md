@@ -4,3 +4,5 @@ Most of the commits will be about my PracticeApp where I'll practice and see how
 I will be testing and seeing how components work etc. most of this work will be useless for anyone but me. 
 
 Well, have a nice day if you're reading this stuff!
+
+This comment was made to test remote settings.
